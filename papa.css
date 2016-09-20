@@ -1,0 +1,80 @@
+
+body {
+	font-family: 'Bad Script', cursive;
+	color:white;
+	font-size:19px;
+}
+
+.header {
+	background-color:#daf5fd;
+	height:150px;
+	text-align:center;
+}
+.header h1 {
+    color: #384A7A;
+    padding-top: 10px;
+}
+.header p {
+	margin: 20px 0 10px;
+	text-align:right;	
+	color: #384A7A;
+	padding-top: 10px;
+}
+
+.jumbotron {
+	background: url(jumbotron.jpg) no-repeat center center;
+	background-size: cover;
+	
+	height:550px;
+	text-align: right;
+}
+.jumbotron > h5 {
+	margin-bottom:0;
+}
+.jumbotron .container h2 {
+	margin-top:10px;
+}
+.jumbotron p {
+	color:white;
+	background: rgba(33, 34, 36, .7);
+	border-radius:5px;
+	padding:5px;
+}
+
+#lenta {
+	background: url(lenta.jpg) no-repeat center;
+	height:70px;
+	background-size: cover;
+}
+
+.wishes {
+	background-color:#daf5fd;
+	height:350px;
+}
+.wishes .container img {
+	margin-top:15px;
+	border-radius:20px;
+}
+.wishes p {
+	color: #384A7A;
+	padding-top:15px;
+	line-height: 1.7;
+}
+
+.footer {
+	background: url(svadba.jpg) no-repeat center center;
+	height:800px;
+	background-size: cover;	
+	text-align: center;
+	position: relative;
+}
+.footer h1 {
+	color: #384A7A;
+	font-size: 10vw;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
